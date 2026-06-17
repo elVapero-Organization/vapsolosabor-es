@@ -1,4 +1,4 @@
-/* ========================================
+﻿/* ========================================
    CSS RESET & BASE STYLES
    ======================================== */
 
@@ -848,6 +848,8 @@ button {
     overflow: hidden;
     transition: transform var(--transition-base), box-shadow var(--transition-base);
     border: 1px solid rgba(57, 255, 20, 0.1);
+    display: flex;
+    flex-direction: column;
 }
 
 .nft-card:hover {
@@ -886,6 +888,9 @@ button {
 
 .nft-card-content {
     padding: var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .nft-card-header {
@@ -916,6 +921,14 @@ button {
     font-size: 1.25rem;
     margin-bottom: var(--spacing-md);
     font-weight: 800;
+}
+
+.nft-card-content a {
+    margin-top: auto;
+}
+
+.btn-small {
+    margin-top: auto;
 }
 
 
@@ -1070,7 +1083,7 @@ footer svg {
 }
 
 .foot-cont-three p::after {
-    content: "▼";
+    content: "–¼";
     position: absolute;
     right: 0;
     top: 50%;

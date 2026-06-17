@@ -1,4 +1,4 @@
-// ========================================
+﻿// ========================================
 // MOBILE MENU FUNCTIONALITY
 // ========================================
 
@@ -432,10 +432,11 @@ if (prodDescToggle) {
 // CONSOLE LOG FOR DEBUGGING
 // ========================================
 
-console.log('NFT Landing Page - JavaScript Loaded Successfully âœ…');
+console.log('NFT Landing Page - JavaScript Loaded Successfully ✅');
 console.log('Reduced Motion:', prefersReducedMotion ? 'Enabled' : 'Disabled');
 console.log('Countdown timers initialized:', timerElements.length);
 console.log('Scroll animation elements:', document.querySelectorAll('.fade-in').length);
+
 
 
 
